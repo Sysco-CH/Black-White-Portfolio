@@ -109,6 +109,11 @@ a:hover {
   transition: all 0.3 ease-in-out;
 }
 
+.icons_mobile {
+  position: relative;
+  justify-content: left;
+}
+
 .menu-links {
   position: absolute;
   top: 100%;
