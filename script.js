@@ -32,7 +32,7 @@ const translations = {
     projectThree: "Project Three",
     getInTouch: "Get In Touch",
     contactMe: "Contact Me",
-    copyRight: "Copyright &#169; 2024 Szilvia Szalko. All Rights Reserved",
+    copyRight: "Copyright ©️ 2024 Szilvia Szalko. All Rights Reserved.",
   },
   de: {
     about: "Über mich",
@@ -60,7 +60,7 @@ const translations = {
     projectThree: "Projekt Drei",
     getInTouch: "Kontakt aufnehmen",
     contactMe: "Kontaktieren Sie mich",
-    copyRight: "Copyright© 2024 Szilvia Szalko. Alle Rechte vorbehalten.",
+    copyRight: "Copyright ©️ 2024 Szilvia Szalko. Alle Rechte vorbehalten.",
   },
 };
 
