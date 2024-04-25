@@ -28,6 +28,12 @@ a,
 }
 
 /* DESKTOP NAV */
+#lgo {
+  font-family: "Gloria Hallelujah", cursiv;
+  font-weight: 400;
+  font-size: normal;
+  color: rgb(53, 53, 53);
+}
 
 nav,
 .nav-links {

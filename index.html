@@ -7,10 +7,13 @@
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap" rel="stylesheet">  
   </head>
   <body>
     <nav id="desktop-nav">
-      <div class="logo">Szilvia Szalko</div>
+      <div class="logo" id="lgo">CodeWithSzilvia</div>
       <div>
         <ul class="nav-links">
           <li><a href="#about" data-translate="about">About</a></li>
@@ -23,7 +26,7 @@
       </div>
     </nav>
     <nav id="hamburger-nav">
-      <div class="logo">Sysco</div>
+      <div class="logo" id="lgoMob">CodeWithSzilvia</div>
       <div>
         <img id="flagMob-en" src="./assets/flag-en.png" alt="English" class="language-flag" onclick="switchLanguage(`en`)">
         <img id="flagMob-de" src="./assets/flag-de.png" alt="Deutsch" class="language-flag" onclick="switchLanguage(`de`)">
