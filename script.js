@@ -32,7 +32,7 @@ const translations = {
     projectThree: "Project Three",
     getInTouch: "Get In Touch",
     contactMe: "Contact Me",
-    copyRight: "&copy; 2024 Szilvia Szalko. All Rights Reserved. ",
+    copyRight: "© 2024 Szilvia Szalko. All Rights Reserved. ",
   },
   de: {
     about: "Über mich",
@@ -60,7 +60,7 @@ const translations = {
     projectThree: "Projekt Drei",
     getInTouch: "Kontakt aufnehmen",
     contactMe: "Kontaktieren Sie mich",
-    copyRight: "&copy; 2024 Szilvia Szalko. Alle Rechte vorbehalten.",
+    copyRight: "© 2024 Szilvia Szalko. Alle Rechte vorbehalten.",
   },
 };
 
@@ -77,7 +77,9 @@ function switchLanguage(lang) {
   });
 
   // Adding active class to chosen flag / language
-  document.getElementById(`flag-${lang}`).classList.add("active-flag"); // Corrected to use backticks
+  document.querySelectorAll(`[id^="flag"][id$="-${lang}"]`).forEach((flag) => {
+    flag.classList.add("active-flag");
+  });
 
   // Saving user behavior
   localStorage.setItem("lang", lang);
